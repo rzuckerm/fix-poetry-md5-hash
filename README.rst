@@ -8,4 +8,5 @@ Usage::
     poetry run fix-poetry-md5-hash <project_dir>
 
 where:
+
 * ``<project_dir>`` is path to project directory
