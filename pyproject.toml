@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "fix-poetry-md5-hash"
+version = "0.1.0"
+description = ""
+authors = ["None <null@void.net>"]
+
+[tool.poetry.dependencies]
+python = "^3.6.2"
+poetry = "^1.1"
+poetry-core = "^1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+black = "^21.9b0"
+
+[tool.poetry.scripts]
+fix-poetry-md5-hash = "fix_poetry_md5_hash.main:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+max-line-length = 100
